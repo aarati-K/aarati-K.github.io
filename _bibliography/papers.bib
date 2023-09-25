@@ -1,6 +1,25 @@
 ---
 ---
 
+@article{10.14778/3551793.3551814,
+author = {K\"{o}nig, Arnd Christian and Shan, Yi and Ziegler, Tobias and Kakaraparthy, Aarati and Lang, Willis and Moeller, Justin and Kalhan, Ajay and Narasayya, Vivek},
+abbr = {VLDB},
+title = {Tenant Placement in Over-Subscribed Database-as-a-Service Clusters},
+year = {2022},
+issue_date = {July 2022},
+publisher = {VLDB Endowment},
+volume = {15},
+number = {11},
+issn = {2150-8097},
+url = {https://doi.org/10.14778/3551793.3551814},
+doi = {10.14778/3551793.3551814},
+abstract = {Relational cloud Database-as-a-Service offerings run on multi-tenant infrastructure consisting of clusters of nodes, with each node hosting multiple tenant databases. Such clusters may be over-subscribed to increase resource utilization and improve operational efficiency. When resources are over-subscribed, it is possible that anode has insufficient resources to satisfy the resource demands of all databases on it, making it necessary to move databases to other nodes. Such moves can significantly impact database performance and availability. Therefore, it is important to reduce the likelihood of such resource shortages through judicious placement of databases in the cluster. We propose a novel tenant placement approach that leverages historical traces of tenant resource demands to estimate the probability of resource shortages and leverages these estimates in placement. We have prototyped our techniques in the Service Fabric cluster manager. Experiments using production resource traces from Azure SQL DB and an evaluation on a real cluster deployment show significant improvements over the state-of-the-art.},
+journal = {Proc. VLDB Endow.},
+month = {jul},
+pages = {2559–2571},
+numpages = {13}
+}
+
 @article{10.14778/3547305.3547306,
 abbr = {VLDB},
 author = {Kakaraparthy, Aarati and Patel, Jignesh M. and Kroth, Brian P. and Park, Kwanghyun},
