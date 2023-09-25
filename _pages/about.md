@@ -17,7 +17,7 @@ news: true  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a PhD student advised by <a href="http://pages.cs.wisc.edu/~jignesh/" target="_blank">Prof. Jignesh Patel</a> at the <a href="https://www.cs.wisc.edu/" target="_blank">Department of Computer Sciences</a>, University of Wisconsin-Madison. My research involves improving the resource efficiency of systems for data analysis by adapting fundamental data structures to the properties of the underlying hardware, the workload, and the execution environment
+I'm a PhD student advised by <a href="http://pages.cs.wisc.edu/~jignesh/" target="_blank">Prof. Jignesh Patel</a> at the <a href="https://www.cs.wisc.edu/" target="_blank">Department of Computer Sciences</a>, University of Wisconsin-Madison. My research involves improving the resource efficiency of systems for data analysis by adapting fundamental data structures to the properties of the underlying hardware, the workload, and the execution environment.
 
 <!-- My research uses novel techniques to make database systems adaptive to workload properties, the execution environment, and modern storage devices.  -->
 
